@@ -8,4 +8,4 @@ Contains the function that implements the dilation operation.
 contains the function that implements the erosion operation.
 
 # Index.py
-Imports the dilation and erosion functions and reads the image from the "images" folder and using openCV 
+Imports the dilation and erosion functions and reads the image from the "images" folder and using openCV ".cvtColor" method converts the image to a gray scale image using which we create a binary image for the subsequent operations for erosion and dilation.
