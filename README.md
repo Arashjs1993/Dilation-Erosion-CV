@@ -11,4 +11,4 @@ contains the function that implements the erosion operation.
 Imports the dilation and erosion functions and reads the image from the "images" folder and using openCV ".cvtColor" method converts the image to a gray scale image using which we create a binary image for the subsequent operations for erosion and dilation.
 
 # read.py
-Simply contains a line that reads the image to be used for the erosion and the dilation.
+Simply contains a line that using the "imread" method of the openCV reads the image to be used for the erosion and the dilation.
